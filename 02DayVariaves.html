@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02DayVariáveis</title>
+    <script type="text/javascript">
+        alert("SEJA BEM-VINDO(A)!")
+
+        const nome = prompt("Qual o seu nome?");
+        const idade = prompt("Quantos anos você tem?")
+        const linguagem = prompt("Qual linguagem de programação você está estudando?")
+
+        alert(`Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}. Parabêns!! `);
+        let res = prompt(`Mas me diga, Você gosta de estudar  ${linguagem}? Digite 1 para SIM e 2 para NÃO:`);
+
+        if(res == 1)
+            alert("Muito bom! Continue estudando e você terá muito sucesso. OBRIGADA POR RESPONDER!")
+        else if(res == 2)
+            res2 = prompt("Ahh que pena... Já tentou aprender outras linguagens? Digite 1 para SIM e 2 para NÃO:")
+            if(res2 == 1)
+                alert("Que bom! Mantenha o foco! OBRIGADA POR RESPONDER!!")
+            else(res2 == 2)
+                alert("Não desista ! Tente estudar outras linguagens... OBRIGADA POR RESPONDER!")      
+        
+    </script>   
+</head>
+</html>
