@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Roadmap</title>
+    <style>
+        body {
+            font: normal 18pt Arial;
+            background: pink;
+        }
+        input {
+            font: normal 18pt Arial;
+            width: 100px;
+        }
+        h1{
+            text-align: center;
+        }
+        div#tech {
+            margin-top: 20px;
+        }  
+    </style>
+</head>
+<body>
+
+    <h1>RoadMap De Tecnologia</h1>
+    <div id="tech">Resultado:</div>
+    
+
+    <script>
+        const res = " "
+        let area = prompt("Olá Dev! em que área você se identifica mais? FRONT-END ou BACK-END??")
+        if (area.toUpperCase() === "FRONTEND"){
+            const res = prompt("Em FRONT-END, Você pode optar por: 1- React ou 2- Vue. Digite um número: ")
+                if(res === "1")
+                    alert("Você escolheu REACT")
+                else if(res === "2")
+                    alert(" Você escolheu VUE")
+                else
+                    alert("Opção Inválda!")
+        }
+        else if(area.toUpperCase() === "BACKEND"){
+            const res = prompt("Em BACK-END, você pode optar por: 1- CSharp ou 2- Java.Digite um número: ")
+                if(res === "1")
+                 alert("Você escolheu CSharp")
+        
+                else if(res === "2")
+                    alert(" Você escolheu JAVA")
+                else
+                    alert("Opção Inválda!")
+  
+        }
+        
+        let nova =prompt(`E então Dev! Gostaria de seguir se especializando em ${area.toUpperCase()}, ou seguir se desenvolvendo para se tornar FULLSTACK??`)
+        
+        switch(nova.toUpperCase()){
+            case "FRONTEND":
+                alert("O Front-End está muito relacionado com a interface gráfica do projeto. Ótima escolha!")
+                break;
+            case "BACKEND":
+                alert("O Back-End trabalha em boa parte dos casos fazendo a ponte entre os dados que vem do navegador rumo ao banco de dados e vice-versa. Ótima escolha!")
+                break;
+            case "FULLSTACK":
+                alert("Em resumo, Full Stack é quem trabalha com Front End e Back End. Você tem muito pra estudar!") 
+                break;
+            default:
+                alert("Opção Inválida!") 
+           
+        }
+        let tecnologias = []
+        let item = 0
+        let continua = "S"
+        while(continua.toUpperCase() !== "N")
+        {
+
+            let item = prompt("Quais são as tecnologias nas quais você gostaria de se especializar ou conhecer?")
+            continua = prompt("Tem mais alguma tecnologia que você gostaria de aprender?Digite SIM para continuar e NÃO para sair")
+            
+            let tecnologia = [item]
+            tecnologias.push(tecnologia)
+
+        }
+        tech.innerHTML = `Essas são as tecnologias que você irá estudar: 
+           <strong> <br><li>${tecnologias}<li></strong><br>Bons Estudos!`
+        
+    </script>
+</body>
+</html>
