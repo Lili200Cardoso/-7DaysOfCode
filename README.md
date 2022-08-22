@@ -31,6 +31,9 @@ if (COMPARAR O numeroDez e a stringDez) {
 }
 
 
+[01DayOfCode.webm](https://user-images.githubusercontent.com/96260047/185953436-c334583f-1304-4cea-b9fd-6cfb1bbcd39e.webm)
+
+
 ## 02Day
 
 
