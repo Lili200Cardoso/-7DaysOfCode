@@ -64,6 +64,8 @@ E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
 1 > Muito bom! Continue estudando e você terá muito sucesso.
 2 > Ahh que pena... Já tentou aprender outras linguagens?
 
+[02DayOfCode.webm](https://user-images.githubusercontent.com/96260047/185954438-16e33438-318f-4b40-b752-393b56a2e5de.webm)
+
 ## 03Day
 
 Você alguma vez já jogou algum jogo que te desse mais de uma escolha e, dependendo do que você escolhesse, o destino do personagem seria totalmente diferente?
@@ -92,6 +94,8 @@ O importante é que a pessoa que estiver jogando possa sempre escolher qual deci
 
 Além disso, também é essencial que, ao final do jogo, ela possa inserir quantas tecnologias quiser na lista de aprendizado.
 
+[03DayOfCode.webm](https://user-images.githubusercontent.com/96260047/185954456-0f2f8870-7754-46f0-bbf7-bd96e18a88bd.webm)
+
 ## 04Day
 
 Você já brincou de tentar adivinhar o número que seu amigo ou amiga estava pensando? Hoje você vai voltar na infância e fazer exatamente isso. Mas agora, o jogo vai ser contra o próprio computador!
@@ -103,6 +107,8 @@ Em seguida, o programa vai perguntar para você qual o valor que você deseja ch
 No fim, caso você não acerte nenhuma vez, ele vai imprimir qual era o número inicial.
 
 Depois que o programinha estiver funcionando, tente usar um número randômico em vez de um número pré-definido.
+
+[04DayOfCode.webm](https://user-images.githubusercontent.com/96260047/185954518-a1788488-0950-49c7-8ddd-0a46c012d998.webm)
 
 ## 05Day
 
@@ -139,6 +145,8 @@ Lista de compras:
     Congelados:
     Doces: chiclete e bala de ursinho
     
+[05DayOfCode.webm](https://user-images.githubusercontent.com/96260047/185954522-97b178ae-cf5f-4ebe-b081-fc6f40cddca7.webm) 
+    
  ## 06Day
  
  Sabe o programinha que você criou ontem para montar a sua própria lista de compras? Hoje o seu desafio é deixar ele ainda mais legal!
@@ -164,6 +172,8 @@ Por exemplo: “Não foi possível encontrar o item dentro da lista!”
 Lembre-se que a opção de remover um item só deverá estar disponível a partir do momento que existir ao menos um elemento dentro da lista de compras.
 
 
+[06DayOfCode.webm](https://user-images.githubusercontent.com/96260047/185954534-ef302161-47cb-4c8e-b5a3-fbb6ce4929b5.webm)
+
 ## 07Day
 
 Esta foi uma semana e tanto, né?
@@ -188,6 +198,8 @@ Depois, ela deverá inserir os dois valores que deseja utilizar, e o programa im
 
 As opções disponíveis deverão ser: soma, subtração, multiplicação, divisão, e sair. Nessa última, o programa deverá parar de ser executado, mostrando uma mensagem "Até a próxima".
 
+
+[07DayOfCode.webm](https://user-images.githubusercontent.com/96260047/185954547-1d4b316b-c440-4be1-9856-69879ac40c5a.webm)
 
 
 
